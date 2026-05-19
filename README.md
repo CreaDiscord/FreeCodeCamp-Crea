@@ -4,7 +4,7 @@
 <html Lang="en">
 
 <head>
-
+    <title> Crea's FreeCodeCamp Repo </title>
 </head>
 
 <body>
