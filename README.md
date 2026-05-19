@@ -1,6 +1,6 @@
 # FreeCodeCamp
 ````
-<DOCTYPE html>
+<!DOCTYPE html>
 <html Lang="en">
 
 <head>
