@@ -1,7 +1,7 @@
 # FreeCodeCamp
 ````
 <!DOCTYPE html>
-<html Lang="en">
+<html lang="en">
 
 <head>
     <title> Crea's FreeCodeCamp Repo </title>
