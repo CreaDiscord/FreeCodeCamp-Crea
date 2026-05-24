@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Shortbread Reviews</h1>
+    <p id="description">I would love to know what you thoght about my shortbreads biscuits</p>
+    
+    <form id="survey-form">
+        <fieldset>
+        
+            <legend>Give your details</legend>
+
+            <label for="name" id="name-label">Name:</label>
+            <input 
+                required 
+                type="text" 
+                id="name"
+                placeholder="John Doe">
+            
+            <br>
+        
+            <label for="email" id="email-label">Email:</label>
+            <input 
+                required 
+                type="email" 
+                id="email"
+                placeholder="John@mail.com">
+        
+            <br>
+        
+            <label for="number" id="number-label">Number:</label>
+            <input 
+                type="number" 
+                id="number" 
+                min="0" 
+                max="99999999999"
+                placeholder="07235678124">
+        
+            </fieldset>
+        
+        <br>
+
+        <fieldset>
+            
+            <legend>What did you think</legend>
+
+            <label for="dropdown" id="dropdown-label">Would you eat?:</label>
+            <select name="dropdown" id="dropdown">
+                <option value="no">No</option>
+                <option value="maybe">Maybe</option>
+                <option value="yes" selected>Yes</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>Rating:</legend>
+
+                <label for="star-1">1:</label>
+                <input type="radio" name="stars" value="1" id="star-1">
+
+                <label for="star-2">2:</label>
+                <input type="radio" name="stars" value="2" id="star-2">
+
+                <label for="star-3">3:</label>
+                <input type="radio" name="stars" value="3" id="star-3">
+
+                <label for="star-4">4:</label>
+                <input type="radio" name="stars" value="4" id="star-4">
+
+                <label for="star-5">5:</label>
+                <input type="radio" name="stars" value="5" id="star-5">
+            </fieldset>
+            <fieldset>
+                <legend>What did you order?</legend>
+                <input type="checkbox" value="order-fingers" id="order-fingers">
+                <label for="order-fingers">Shortbread Fingers</label>
+                <br>
+                <input type="checkbox" value="order-rounds" id="order-rounds">
+                <label for="order-rounds">Shortbread Rounds</label>
+                <br>
+                <input type="checkbox" value="order-triangles" id="order-triangles">
+                <label for="order-triangles">Shortbread Triangles</label>
+            </fieldset>
+            <label for="reveiw">Full review:</label>
+            <br>
+            <textarea id="review" cols="35" rows="5" placeholder="Type your full reveiw here!"></textarea>
+        </fieldset>
+        <button type="submit" id="submit">Submit your Review</button>
+    </form>
+</body>
+</html>
