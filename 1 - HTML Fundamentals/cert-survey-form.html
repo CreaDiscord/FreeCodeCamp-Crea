@@ -10,8 +10,7 @@
     
     <form id="survey-form">
         <fieldset>
-        
-            <legend>Give your details</legend>
+            <legend>Your details</legend>
 
             <label for="name" id="name-label">Name:</label>
             <input 
@@ -19,18 +18,14 @@
                 type="text" 
                 id="name"
                 placeholder="John Doe">
-            
-            <br>
-        
+                <br>
             <label for="email" id="email-label">Email:</label>
             <input 
                 required 
                 type="email" 
                 id="email"
                 placeholder="John@mail.com">
-        
-            <br>
-        
+                <br>
             <label for="number" id="number-label">Number:</label>
             <input 
                 type="number" 
@@ -38,16 +33,12 @@
                 min="0" 
                 max="99999999999"
                 placeholder="07235678124">
-        
-            </fieldset>
-        
-        <br>
-
+        </fieldset>
+            <br>
         <fieldset>
-            
             <legend>What did you think</legend>
 
-            <label for="dropdown" id="dropdown-label">Would you eat?:</label>
+            <label for="dropdown" id="dropdown-label">Would you eat again:</label>
             <select name="dropdown" id="dropdown">
                 <option value="no">No</option>
                 <option value="maybe">Maybe</option>
@@ -73,20 +64,23 @@
                 <input type="radio" name="stars" value="5" id="star-5">
             </fieldset>
             <fieldset>
-                <legend>What did you order?</legend>
+                <legend>What did you order:</legend>
+
                 <input type="checkbox" value="order-fingers" id="order-fingers">
                 <label for="order-fingers">Shortbread Fingers</label>
-                <br>
+                    <br>
                 <input type="checkbox" value="order-rounds" id="order-rounds">
                 <label for="order-rounds">Shortbread Rounds</label>
-                <br>
+                    <br>
                 <input type="checkbox" value="order-triangles" id="order-triangles">
                 <label for="order-triangles">Shortbread Triangles</label>
             </fieldset>
-            <label for="reveiw">Full review:</label>
-            <br>
-            <textarea id="review" cols="35" rows="5" placeholder="Type your full reveiw here!"></textarea>
+            <fieldset>
+                <legend>Full review: </legend>
+                <textarea id="review" cols="40" rows="5" placeholder="Type your full reveiw here!"></textarea>
+            </fieldset>
         </fieldset>
+        <br>
         <button type="submit" id="submit">Submit your Review</button>
     </form>
 </body>
